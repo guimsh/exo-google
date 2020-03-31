@@ -1,0 +1,145 @@
+#conteneur	{
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 15px;
+}
+
+.gmail	{
+	margin-right: 10px;
+	margin-top: 18px;
+}
+
+.gmail:hover {
+	text-decoration: underline;
+}
+
+.images {
+	margin: 10px;
+	margin-top: 18px;
+}
+
+.images:hover {
+	text-decoration: underline;
+}
+
+.applications {
+	margin: 10px;
+	margin-top: 15px;
+}
+
+.compte {
+	margin: 10px;
+	margin-top: 15px;
+	color: #1E90FF;
+}
+
+.stop{
+	margin-right: 15px;
+	margin-top: 11px;
+}
+
+.connexion	{
+	background-color: #1E90FF;
+	color: white;
+}
+
+.logo {
+	display: flex;
+	justify-content: center;
+	margin-top: 150px;
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 85%;
+  border: 1px solid #D3D3D3	;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #000000;
+}
+
+.searchButton {
+  width: 40px;
+  height: 32px;
+  border: 1px solid #D3D3D3;
+  background: #D3D3D3;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.wrap{
+  width: 32%;
+  position: absolute;
+  top: 38%;
+  left: 51%;
+  transform: translate(-50%, -50%);
+}
+
+#search {
+	display: flex;
+	justify-content: center;
+	margin-top: 70px;
+}
+
+.recherche {
+	margin-right: 10px;
+}
+
+.lucky {
+	margin-left: 10px;
+}
+
+#coro {
+	display: flex;
+	justify-content: center;
+	margin-top: 5px;
+}
+
+.barr {
+	margin-top: 20px;
+}
+
+#footer {
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 40px;
+  border-top: 1px;
+  line-height: 40px;
+  bottom: 0;
+  position: absolute;
+  padding: 0;
+  margin-left: -10px;
+}
+
+.footergauche {
+	display: flex;
+	float: left;
+	text-indent: 15px;
+}
+
+.footerdroit {
+	display: flex;
+	float: right;
+	text-indent: 15px;
+}
+
